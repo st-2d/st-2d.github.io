@@ -32,3 +32,17 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Flex theme
+SITETITLE = 'st2d'
+SITELOGO = '/content/image/favicon.png'
+SITEDESCRIPTION = 'st2d webpage.'
+OG_LOCALE = 'ja_JP'
+COPYRIGHT_NAME = 'st2d'
+COPYRIGHT_YEAR = '2024'
+CC_LICENSE = {
+    "name": "Creative Commons Attribution-ShareAlike",
+    "version": "4.0",
+    "slug": "by-sa"
+}
+FAVICON = '/content/image/favicon.png'

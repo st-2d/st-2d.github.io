@@ -1,8 +1,10 @@
+from datetime import datetime
+
 AUTHOR = 'st2d'
 SITENAME = 'st2d'
-SITEURL = ""
+SITEURL = 'https://st-2d.github.io/'
 
-PATH = "content"
+PATH = 'content'
 
 TIMEZONE = 'Asia/Tokyo'
 DEFAULT_DATE_FORMAT = '%Y-%m-%d'
@@ -18,14 +20,16 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
+    ('Home', '/'),
+    ('Archives', '/archives.html'),
+    ('Categories', '/categories.html'),
+    ('Tags', '/tags.html'),
 )
 
 # Social widget
 SOCIAL = (
-    ("GitHub", "https://github.com/st-2d"),
+    ('github', 'https://github.com/st-2d'),
+    ('twitter', 'https://x.com/cvtsuda')
 )
 
 DEFAULT_PAGINATION = 10
@@ -35,14 +39,14 @@ DEFAULT_PAGINATION = 10
 
 # Flex theme
 SITETITLE = 'st2d'
-SITELOGO = '/content/image/favicon.png'
+SITELOGO = '/image/favicon.png'
 SITEDESCRIPTION = 'st2d webpage.'
 OG_LOCALE = 'ja_JP'
 COPYRIGHT_NAME = 'st2d'
-COPYRIGHT_YEAR = '2024'
+COPYRIGHT_YEAR = f'2024 - {datetime.now().year}'
 CC_LICENSE = {
-    "name": "Creative Commons Attribution-ShareAlike",
-    "version": "4.0",
-    "slug": "by-sa"
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa',
 }
-FAVICON = '/content/image/favicon.png'
+FAVICON = '/image/favicon.png'

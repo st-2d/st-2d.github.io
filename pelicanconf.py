@@ -21,15 +21,15 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ('Home', '/'),
-    ('Archives', '/archives.html'),
-    ('Categories', '/categories.html'),
-    ('Tags', '/tags.html'),
+    ('過去の記事', '/archives.html'),
+    ('カテゴリ', '/categories.html'),
+    ('タグ', '/tags.html'),
 )
 
 # Social widget
 SOCIAL = (
     ('github', 'https://github.com/st-2d'),
-    ('twitter', 'https://x.com/cvtsuda')
+    ('x-twitter', 'https://x.com/cvtsuda')
 )
 
 DEFAULT_PAGINATION = 10
@@ -38,6 +38,7 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 # Flex theme
+DISABLE_URL_HASH = True
 SITETITLE = 'st2d'
 SITELOGO = '/image/favicon.png'
 SITEDESCRIPTION = 'st2d webpage.'
@@ -50,3 +51,6 @@ CC_LICENSE = {
     'slug': 'by-sa',
 }
 FAVICON = '/image/favicon.png'
+BROWSER_COLOR = 'orange'
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+THEME_COLOR_ENABLE_USER_OVERRIDE = True

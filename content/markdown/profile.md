@@ -1,6 +1,7 @@
 Title: Profile
 Date: 2024-10-04 12:34
 Modified: 2024-10-04 12:34
+Category: Profile
 Slug: profile
 
 # 主要なスキル

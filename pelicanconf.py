@@ -20,7 +20,6 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ('Home', '/'),
     ('過去の記事', '/archives.html'),
     ('カテゴリ', '/categories.html'),
     ('タグ', '/tags.html'),
@@ -29,7 +28,7 @@ LINKS = (
 # Social widget
 SOCIAL = (
     ('github', 'https://github.com/st-2d'),
-    ('x-twitter', 'https://x.com/cvtsuda')
+    ('twitter', 'https://x.com/cvtsuda')
 )
 
 DEFAULT_PAGINATION = 10
